@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1a1a;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 4rem;
+    color: white;
+}
+.content{
+    position: absolute;
+    top:30%;
+    left: 30%;
+    display: none;
+
+}
+
+.hide{
+    visibility:hidden;
+}
+.click-me{
+    position: absolute;
+    top:325px;
+    left: 650px;
+}
+
+.btn {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    padding: 20px;
+    padding-bottom: 30px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+.btn:hover {
+    background-color: #be340a;
+  }
+  
+.hello{
+    position: absolute;
+    top:325px;
+    left: 400px;
+    display: none;
+}
+
+.ready{
+    display: none;
+}
+
